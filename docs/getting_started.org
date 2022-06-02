@@ -189,7 +189,7 @@ nixpkgs.overlays = [
 ];
 
 environment.systemPackages = [
-  pkgs.emacsGcc  # Installs Emacs 28 + native-comp
+  pkgs.emacsNativeComp  # Installs Emacs 28 + native-comp
 ];
 #+END_SRC
 
